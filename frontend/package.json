@@ -1,0 +1,25 @@
+{
+  "name": "chat-app",
+  "version": "0.0.0",
+  "description": "Webcomponent chat-app following open-wc recommendations",
+  "author": "chat-app",
+  "license": "MIT",
+  "scripts": {
+    "start": "./configure.sh; wds",
+    "build": "./configure.sh; rimraf build && rollup -c rollup.config.js"
+  },
+  "dependencies": {
+    "@pwabuilder/pwainstall": "^1.6.7",
+    "@pwabuilder/pwaupdate": "^0.2.0",
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@open-wc/building-rollup": "^1.10.0",
+    "@web/dev-server": "^0.1.26",
+    "deepmerge": "^4.2.2",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.45.2",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-workbox": "^5.2.1"
+  }
+}
