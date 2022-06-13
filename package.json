@@ -1,0 +1,25 @@
+{
+  "name": "serverless-chat-app",
+  "version": "1.0.0",
+  "description": "AWS Serverless based chat app demo, build with appycloud",
+  "main": "initial-setup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahdiridho/serverless-chat-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahdiridho/serverless-chat-app/issues"
+  },
+  "homepage": "https://github.com/mahdiridho/serverless-chat-app#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "process": "^0.11.10",
+    "readline": "^1.3.0"
+  }
+}
